@@ -1,0 +1,21 @@
+{
+  "$id": "site-entity",
+  "filter": {
+    "entityIds": ["global-data"]
+  },
+  "source": "knowledgeGraph",
+  "fields": [
+    "name",
+    "slug",
+    "id",
+    "c_storeNav",
+    "c_locationFood",
+    "c_locationFurnal",
+    "c_callUs",
+    "c_logo"
+  ],
+  "localization": {
+    "locales": ["en"],
+    "primary": false
+  }
+}
