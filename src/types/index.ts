@@ -30,6 +30,7 @@ export interface ImageThumbnail {
 
 
 export interface SiteData {
+  map(arg0: (e: HeaderNavigation, i: number) => JSX.Element): import("react").ReactNode;
   meta: EntityMeta;
   image: Image;
   c_logo: ComplexImage;

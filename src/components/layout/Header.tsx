@@ -55,6 +55,7 @@ const Header = (props: HeaderProps) => {
       </div>
       <div className="logo">
             <a href="#">
+              {props?.navLogo &&
               <Image
                 image={props?.navLogo}
                 layout="aspect"
@@ -63,11 +64,14 @@ const Header = (props: HeaderProps) => {
                   props?.navLogo?.image?.height
                 }
               />
+            }
             </a>
           </div>
+          {props?.navNumber && 
           <div>
+            
          call us: <a href={`tel:${props?.navNumber}`}>{props?.navNumber}</a>
-          </div>
+          </div>}
     </header>
   );
 };
