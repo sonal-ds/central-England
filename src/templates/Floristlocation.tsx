@@ -82,7 +82,7 @@ export const config: TemplateConfig = {
 			// "dm_directoryParents.dm_directoryParents.dm_directoryParents.meta.entityType",
 		],
 		localization: {
-			locales: ["en_GB"],
+			locales: ["en"],
 			primary: false,
 		},
 	},
