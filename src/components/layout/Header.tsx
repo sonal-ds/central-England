@@ -34,7 +34,7 @@ const Header = (props: HeaderProps) => {
 
           <div className="header-menu">
             <ul className="text-lg font-semibold">
-              {props?.navLink?.map(
+              {props?.navLink && props?.navLink?.map(
                 (e: HeaderNavigation, i: number) => {
                   return (
                     <li key={i}>

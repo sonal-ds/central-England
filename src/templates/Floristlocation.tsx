@@ -170,7 +170,7 @@ const Foodlocation: Template<LocationTemplateProps> = ({
 			>
 				<AnalyticsScopeProvider name={document.name}>
 					<PageLayout
-						navLink={_site.c_locationFood}
+						navLink={_site?.c_locationFood}
 						navLogo={_site.c_logo}
 						navNumber={_site.c_callUs}
 						meta={__meta}
